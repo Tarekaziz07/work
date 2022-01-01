@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+/* header is here */
+#header{
+
+width: 100%;
+
+float: left;
+
+padding: 10px 0px;
+}
+.logo-part{
+
+width: 20%;
+
+float: left;
+
+padding: 10px;
+}
+.logo-part a img{
+
+width: 55%;
+}
+.menu-part{
+
+width: 50%;
+
+float: left;
+}
+.menu-part nav{
+
+}
+.menu-part nav ul {
+
+margin: 25px auto;
+
+text-align: center;
+}
+.menu-part nav ul li{
+
+list-style: none;
+
+display: inline-block;
+
+margin: 0px 16px;
+}
+.menu-part nav ul li a{
+
+text-decoration: none;
+
+font-size: 19px;
+
+font-weight: 600;
+
+color: black;
+}
+.search-part{
+
+width: 30%;
+
+float: left;
+
+text-align: right;
+
+padding: 16px 0px;
+}
+.search-part input{
+
+padding: 6px;
+
+border: 1px solid;
+
+border-radius: 20px;
+
+font-size: 18px;
+}
+.search-part input::placeholder{
+    text-align: end;
+    font-size: 17px;
+    color: black;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.search-part i{
+
+font-size: 22px;
+
+margin: 4px  5px 0px;
+}
+/* Hero section */
+#hero{
+
+width: 100%;
+
+float: left;
+
+padding: 70px 0px;
+
+/* background-image: url(../img/bac.jpeg);
+
+background-repeat: no-repeat;
+background-position: center center; */
+background: url(../img/bac.jpeg) no-repeat center center;
+background-size: cover;
+}
+.hero-writing-part{
+
+width: 50%;
+
+float: left;
+}
+.hero-writing-part h1{
+
+font-size: 45px;
+
+color: #024495;
+}
+.hero-writing-part h2{
+
+font-size: 80px;
+
+color: #690e49;
+
+line-height: 78px;
+}
+.hero-writing-part p{
+
+margin: 20px 0px;
+
+font-size: 18px;
+
+width: 450px;
+}
+.hero-writing-part a button{
+
+background: transparent;
+
+border: 2px solid gray;
+
+padding: 10px 30px;
+
+border-radius: 25px;
+
+font-size: 15px;
+
+font-weight: 700;
+
+color: #534444;
+}
+.social-icons{margin: 30px 0px;}
+.social-icons i{
+    
+font-size: 35px;
+    
+background: transparent;
+}
+.hero-image-part{
+
+width: 50%;
+
+float: left;
+
+text-align: center;
+}
+.hero-image-part img{
+    
+width: 45%;
+}
